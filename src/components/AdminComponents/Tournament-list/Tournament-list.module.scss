@@ -1,0 +1,36 @@
+.mainContainerTournamentList{
+   position: absolute;
+   top: 0;
+   right: 0;
+   /* width: 569px; */
+   width: 769px;
+   height: 100%;
+   @media screen and (max-width: 1790px){
+     width: 500px;
+   }
+   .contentContainerTournamentList{
+      width: 100%;
+      position: absolute;
+      background: #3F317C;
+      z-index: 1;
+      .title{
+         margin: 32px 0 0 32px;
+         font-style: normal;
+         font-weight: 500;
+         font-size: 36px;
+         line-height: 43px;
+         color: #FFFFFF;
+      }
+   }
+   .itemContainer{
+      margin-top: 140px;
+      overflow: auto;
+      height: 90%;
+      @media screen and (max-height: 1367px){
+         height: 89%;
+       }
+       @media screen and (max-height: 1272px){
+         height: 87%;
+       }
+   }
+}

@@ -1,0 +1,197 @@
+.itemContainer{
+   margin-top: 20px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px 5px;
+   border-radius: 30px;
+   background: #201942;
+   cursor: pointer;
+   @media screen and (max-width: 1201px){
+      padding: 15px 20px;
+   }
+   .title{
+      text-align: center;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+   }
+   .titleContainer{
+      flex: 1 1 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      .infoContainer{
+         height: 80%;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         .gameName{
+            margin-top: 11px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #C6C6C6;
+         }
+      }
+      
+   }
+   .scoreContainer{
+      width: 95%;
+      margin-top: 23.5px;
+      display: flex;
+      justify-content: space-between;
+      .score{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         .titleScoreContainer{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-around;
+            width: 75px;
+            height: 28px;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 28px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            .titleScore{
+               
+            }
+         }
+         .scoreStatus{
+            margin-top: 5px;
+            text-align: center;
+            line-height: 26px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            letter-spacing: 0.05em;
+            color: #0D0D0D;
+            width: 55px;
+            height: 26px;
+         }
+      }
+      .team{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         flex: 1 1 33.333%;
+         .titleTeam{
+            margin-top: 10px;
+            height: 50px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.05em;
+            text-align: center;
+         }
+         
+      }
+      .team_right{
+         justify-content: start;
+      }
+   }
+   .tableContainer{
+      margin: 10px 0 0 -40px;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .rowContainer{
+         margin-top: 10px;
+         display: flex;
+         justify-content: center;
+      }
+      .tableHeader{
+         display: flex;
+         justify-content: center;
+      }
+      .tTitle{
+         width: 90px;
+         height: 30px;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 30px;
+         text-align: center;
+         letter-spacing: 0.05em;
+         color: #C6C6C6;
+         border: 1px solid #C6C6C6;
+
+         &:first-child{
+            width: 50px;
+            border: none;
+         }
+      }
+   }
+}
+.red{
+   display: inline;
+   color: #EB4B4E;
+}
+.green{
+   display: inline;
+   color: #4E9809;
+}
+
+.soon{
+   width: 100%;
+   border-radius: 8px;
+   background: #EDC765;
+}
+.live{
+   width: 100%;
+   border-radius: 8px;
+   background: #4E9809;
+}
+.pause{
+   width: 100%;
+   border-radius: 8px;
+   background: #818181;
+}
+.end{
+   width: 100%;
+   border-radius: 8px;
+   background: #917BFF;
+}
+.closeButton{
+   background: red;
+   margin-bottom: 10px;
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+   img{
+      width: 100%;
+      height: 100%;
+   }
+}
+.imageContainer{
+   width: 100px;
+   height: 100px;
+   overflow: hidden;
+   border-radius: 12px;
+   &_mini{
+      width: 30px;
+      height: 30px;
+   }
+   img{
+      width: 100%;
+      height: 100%;
+   }
+}
+.mainPlanModContainer{
+   position: relative;
+}
+.module{
+   position: absolute;
+   top: -20%;
+   left:calc(50% - 197px);
+   //left: 197px;
+   z-index: 999;
+}

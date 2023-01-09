@@ -1,0 +1,127 @@
+.mainTitle{
+   margin-top: 20px;
+   display: flex;
+   width: 100%;
+   .mainTtem{
+      display: flex;
+      justify-content: center;
+      //font-family: 'Rubik';
+      padding-left: 10px;
+      flex: 1 1 16.666%;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-transform: capitalize;
+      color: rgba(255, 255, 255, 0.4);
+      &:first-child{
+         flex: 1 1 5%;
+      }
+      &:last-child{
+         flex: 1 1 8%;
+      }
+   }
+   .itemLittle{
+      flex: 1 1 10%;
+   }
+   .itemMasage{
+      flex: 1 1 19%;
+   }
+}
+
+.tasksRow{
+   margin-top: 4px;
+   display: flex;
+   .item{
+      display: flex;
+      justify-content: center;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+      padding: 8px 0 8px 10px;
+      flex: 1 1 16.666%;
+      display: flex;
+      align-items: center;
+      min-height: 62px;
+      &:first-child{
+         flex: 1 1 5%;
+      }
+      &:last-child{
+         flex: 1 1 8%;
+      }
+      .imgContainer{
+         width: 36px;
+         height: 36px;
+         overflow: hidden;
+         border-radius: 12px;
+         img{
+            width: 100%;
+            height: 100%;
+         }
+      }
+      .typeContainer{  
+         display: flex;
+         padding: 0 8px;
+         justify-content: center;
+         align-items: center;
+         border-radius: 12px;
+         width: 100%;
+         height: 100%;
+         
+      }
+      .conflict{
+         background: #B33D3F;
+      }
+      .problem{
+         background: #BC9B47;
+      }
+      .textContainer{
+         text-align: left;
+      }
+      .statusContainer{
+         display: flex;
+         align-items: center;
+      }
+   }
+   .itemLittle{
+      flex: 1 1 10%;
+   }
+   .itemMasage{
+      flex: 1 1 19%;
+   }
+}
+
+.even{
+   background: rgba(145, 123, 255, 0.2);
+   border-radius: 15px;
+}
+.indicator{
+   border-radius: 50%;
+   margin-right: 6px;
+   width: 6px;
+   height: 6px;
+}
+.red{
+   background: #EB4B4E;
+}
+.yellow{
+   background: #EEC765;
+}
+.green{
+   background: #6EE500;
+}
+
+
+
+
+
+
+
+
+
+
+

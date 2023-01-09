@@ -1,0 +1,57 @@
+@import "~normalize.css";
+@import "~react-toastify/dist/ReactToastify.css";
+@import "~react-image-crop/dist/ReactCrop.css";
+@import "~react-phone-input-2/lib/style.css";
+@import "~react-datepicker/dist/react-datepicker.css";
+@import "~react-circular-progressbar/dist/styles.css";
+@import "~rc-slider/assets/index.css";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
+  background: #3F317C;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Toastify__toast--success {
+  background: #2F294C;
+}
+
+.Toastify__progress-bar--success {
+  background: #EDA211;
+  box-shadow: 0 0 20px #140F2B;
+  opacity: .25;
+}
+
+.Toastify__toast--error {
+  background: #2F294C;
+}
+
+.Toastify__progress-bar--error {
+  background: red;
+  box-shadow: 0 0 20px #140F2B;
+  opacity: .25;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+.iconLock {
+   position: absolute;
+   top: 12px;
+   right: 10px;
+   display: block;
+   width: 15px;
+   height: 21px;
+   background: url("./img/MainBlock/lock.svg") no-repeat;
+ }

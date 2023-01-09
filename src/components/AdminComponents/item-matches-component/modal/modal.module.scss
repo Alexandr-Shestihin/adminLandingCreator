@@ -1,0 +1,176 @@
+.modalContainer{
+  /*  position: fixed;
+   top: 0;
+   width: 750px;
+   height: 100%; */
+   .modal{
+      /* margin: 100px auto; */
+      background: #3F317C;
+      border: 1px solid black;
+      border-radius: 20px;
+      width: 395px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      .closeButton{
+         margin-bottom: 5px;
+         width: 20px;
+         height: 20px;
+         cursor: pointer;
+         img{
+            width: 100%;
+            height: 100%;
+         }
+      }
+      .contantContainer{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         .infoContainer{
+            
+            width: 365px;
+            height: 127px;
+            padding: 15px;
+            justify-content: space-between;
+            display: flex;
+            background: #201942;
+            box-shadow: 0px 10px 10px rgba(32, 25, 66, 0.35);
+            border-radius: 12px;
+            .scoreInfoContainer{
+               display: flex;
+               justify-content: center;
+               flex-direction: column;
+               .BOname{
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 17px;
+                  text-align: center;
+                  letter-spacing: 0.05em;
+                  color: #C6C6C6;
+                }
+               .scoreComtainer{
+                  margin-top: 10px;
+                  display: flex;
+                  justify-content: space-between;
+                  font-size: 32px;
+                  font-weight: bold;
+                  .score{
+                     margin: 0 10px;
+                  }
+               }
+            }
+            .teamContainer{
+               display: flex;
+               flex-direction: column;
+               justify-content: space-between;
+               align-items: center;
+               width: 120px;
+            }
+         }
+         .inputContainer{
+            margin-top: 15px;
+            background: #201942;
+            box-shadow: 0px 10px 10px rgba(32, 25, 66, 0.35);
+            padding: 15px 29.5px;
+            border-radius: 12px;
+           .inputItem{
+               padding: 5px 0;
+               display: flex;
+               justify-content: space-between;
+            input{
+               width: 60px;
+               height: 40px;
+               font-size: 20px;
+               font-weight: 700;
+               text-align: center;
+               border-radius: 8px;
+               background: #3F317C;
+               color: white;
+            }
+         } 
+         }
+         
+      }
+      .buttonContainer{
+         margin-top: 30px;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+        
+      }
+      
+   }
+}
+.imageContainer{
+   width: 48px;
+   height: 48px;
+   border-radius: 12px;
+   overflow: hidden;
+   img{
+      width: 100%;
+      height: 100%;
+   }
+}
+.infoTeamBlock{
+   margin-top: 10px;
+   display: flex;
+   .name{
+      font-size: 14px;
+      text-align: center;
+      line-height: 16.94px;
+   }
+}
+.err{
+   position: absolute;
+   border-radius: 12px;
+   background: red;
+   top: 150px;
+   left: 24%;
+   color: white;
+   width: 200px;
+   height: 50px;
+   line-height: 50px;
+   font-size: 20px;
+   text-align: center;
+}
+.errInput{
+   border: 1px solid red;
+   color: red;
+}
+.radioContainer{
+   margin: 26px auto 26px auto;
+   width: 200px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   .radio{
+      width: 30px;
+      height: 30px;
+      border: 3px solid black;
+      box-shadow: 0px 10px 10px rgba(32, 25, 66, 0.35);
+      border-radius: 50%;
+      cursor: pointer;
+   }
+   span{
+      width: 130px;
+      text-align: center;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #C6C6C6;
+   }
+   .winner{
+      background: #201942;
+   }
+}
+button{
+   width: 100%;
+   height: 40px;
+   background: #201942;
+   border-radius: 8px;
+   color: white;
+   font-size: 16px;
+} 

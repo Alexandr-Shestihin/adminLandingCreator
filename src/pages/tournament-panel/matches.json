@@ -1,0 +1,127 @@
+{
+   "matches": [
+      {
+         "matchId": "1ASDASDSSSSSFASFF14212",
+         "tournament": {
+            "id": "1ASDASD3123FASFF14212",
+            "name": "Tournament: Teken 7 Euro 2022",
+            "logo": null
+         },
+         "game": {
+            "id": "1ASDASD3123FASF4B4212",
+            "name": "Teken 7",
+            "logo": null
+         },
+         "tournamentMember1": {
+            "id": "1",
+            "user": {
+               "id": "1ASDASD3123FA2414212",
+               "nickname": "Саня",
+               "avatar": null
+            },
+            "team": {
+               "id": "1ASDASda123FASF4B4212",
+               "name": "America",
+               "logo": null
+            }
+         },
+         "tournamentMember2": {
+            "id": "1",
+            "user": {
+               "id": "BASDASD3123FdaF414212",
+               "nickname": "Петя",
+               "logo": null
+            },
+            "team": {
+               "id": "1ASDASDff123FASF41B212",
+               "name": "Monaco",
+               "logo": null
+            }
+         },
+         "tournamentMemberScore1": "1",
+         "tournamentMemberScore2": "1"
+      },
+      {
+         "matchId": "1ASDASD31HH3FASFF14212",
+         "tournament": {
+            "id": "1ASDASD3123FASF41421B",
+            "name": "Tournament: Teken 7 Euro 2022",
+            "logo": null
+         },
+         "game": {
+            "id": "1ASDASD3123FASFB4212",
+            "name": "Teken 7",
+            "logo": null
+         },
+         "tournamentMember1": {
+            "id": "1",
+            "user": {
+               "id": "1ASDASD3123B",
+               "nickname": "Вася",
+               "avatar": null
+            },
+            "team": {
+               "id": "1ASDBa123FASF414212",
+               "name": "France",
+               "logo": null
+            }
+         },
+         "tournamentMember2": {
+            "id": "1",
+            "user": {
+               "id": "1ASDASB123FdaF4B12",
+               "nickname": "Даша",
+               "logo": null
+            },
+            "team": {
+               "id": "1ASBSDff123B414212",
+               "name": "Spain",
+               "logo": null
+            }
+         },
+         "tournamentMemberScore1": "2",
+         "tournamentMemberScore2": "1"
+      },
+      {
+         "matchId": "1ASDASD312DDSFF14212",
+         "tournament": {
+            "id": "1ASDASD3123FABF414B",
+            "name": "Tournament: Teken 7 Euro 2022",
+            "logo": null
+         },
+         "game": {
+            "id": "1ABBD3B3FASF41421B",
+            "name": "Teken 7",
+            "logo": null
+         },
+         "tournamentMember1": {
+            "id": "1",
+            "user": {
+               "id": "1ASDAB23FASF4B42B2",
+               "nickname": "Лена",
+               "avatar": null
+            },
+            "team": {
+               "id": "1ABDASda1B414212",
+               "name": "Poland",
+               "logo": null
+            }
+         },
+         "tournamentMember2": {
+            "id": "1",
+            "user": {
+               "id": "1ASDF3DFF14D12",
+               "nickname": "Федя",
+               "logo": null
+            },
+            "team": {
+               "id": "1AFASFf1FASF414F2",
+               "name": "Turkey",
+               "logo": null
+            }
+         },
+         "tournamentMemberScore1": "0",
+         "tournamentMemberScore2": "0"
+      }
+   ]
+}

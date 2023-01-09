@@ -1,0 +1,72 @@
+
+.custom_select{
+
+   &__control{
+      background-color: transparent !important;
+      color: white !important;
+
+   }
+   //сам элемент input
+
+   &--menu-is-open{
+      color: white !important;
+   }
+   &__value-container{
+      //padding: 0 !important; //отступы в от результата
+      cursor: text !important;
+      color: white !important;
+
+   }
+   &__input-container{
+      //padding: 0 !important; //отступы в input
+      cursor: text !important;
+      color: white !important;
+
+   }
+   &__indicators{
+      color: white !important;
+      &:hover{
+         background-color: rgba(123, 97, 255, 0.4) !important;
+         cursor: pointer;
+      }
+   }
+   //стили крестиков, стрелочек
+
+   &__multi-value {
+      background-color: rgba(123, 97, 255, 0.2) !important;
+      border-radius: 10px !important;
+      color: white !important;
+   }
+   //стили выбранных элементов
+
+   &__multi-value__label {
+      color: white !important;
+   }
+   //стили шрифта выбранных элементов
+
+   &__multi-value__remove {
+      color: white !important;
+      
+      &:hover{
+         background-color: rgba(123, 97, 255, 0.4) !important;
+         color: white !important;
+         cursor: pointer !important;
+      }
+   }
+   //стили кнопки удаления
+
+   &__menu {
+      background-color: #201942 !important;
+      color: #fff !important;
+   }
+   //стили выпадающего меню
+
+   &__option{
+      cursor: pointer !important;
+      color: white !important;
+      &--is-focused{
+         background-color: rgba(123, 97, 255, 0.2) !important;
+      }
+   }
+
+}

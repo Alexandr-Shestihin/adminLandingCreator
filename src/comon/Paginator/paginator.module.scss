@@ -1,0 +1,15 @@
+.btnPaginatorContainer{
+   margin-top: 10px;
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+}
+.paginatorBtn{
+   width: 30px;
+   height: 20px;
+   margin-right: 5px;
+   background: rgba(145, 123, 255, 0.2);
+}
+.currentPage{
+   background: rgba(145, 123, 255, 0.46);
+}

@@ -1,0 +1,166 @@
+   .infoPanel{
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 30px 0 0 20px;
+      display: flex;
+      flex-direction: column;
+      max-width: 342px;
+      border-left: 1px solid rgba(255, 255, 255, 0.12);
+      height: 100%;
+      @media screen and (max-width: 1315px){
+         max-width: 22%;
+      }
+      .topContainer{
+         display: flex;
+         flex-direction: column;
+         .imgContainer{
+            overflow: hidden;
+            background: #201942;
+            width: 294px;
+            height: 370px;
+            border-radius: 20px;
+            @media screen and (max-width: 1315px){
+               width: 70%;
+            }
+            @media screen and (max-width: 991px){
+               width: 70%;
+            }
+            @media screen and (max-height: 914px){
+               display: none;
+            }
+            img{
+               width: 100%;
+            }
+         }
+         .mainButtonContainer{
+            margin-top: 16px;
+            width: 294px;
+            @media screen and (max-width: 1315px){
+               width: 70%;
+            }
+            @media screen and (max-width: 1200px){
+               width: 70%;
+            }
+         .buttonContainer{
+            margin-top: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-around;    
+            @media screen and (max-width: 1200px){
+               margin-top: 0px;
+            }
+            button:nth-child(1){
+               margin-left: 0px;
+            }
+            @media screen and (max-width: 1315px){
+               button:nth-child(odd){
+                  margin-left: 0px;
+               }
+               button:last-child{
+                  margin-left: 0px;
+               }   
+            }
+            button{
+               margin: 8px 0 0 41.5px;
+               width: 69px;
+               height: 38px;
+               background: rgba(123, 97, 255, 0.1);
+               border-radius: 12px;
+               font-style: normal;
+               font-weight: 500;
+               font-size: 15px;
+               line-height: 18px;
+               letter-spacing: 0.05em;
+               color: rgba(255, 255, 255, 0.52);
+               @media screen and (max-width: 1315px){
+                  margin: 8px 0 0 15.5px;
+               }
+               @media screen and (max-width: 1200px){
+                  margin: 8px 0 0 10px;
+               }
+               @media screen and (max-width: 1055px){
+                  margin: 8px 0 0 0;
+               }
+            }
+            .active{
+               background: rgba(123, 97, 255, 0.4);
+               color: rgba(255, 255, 255, 0.9);
+            }
+         }
+      }
+      }
+      .bottomContainer{
+         margin-top: 90px;
+         @media screen and (max-width: 1200px){
+            margin-top: 30px;
+         }
+         @media screen and (max-height: 880px){
+            margin-top: 30px;
+         }
+         .textContainer{
+            justify-content: space-around;
+            width: 301px;
+            display: flex;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 1px;
+            @media screen and (max-width: 1315px){
+               width: 70%;
+               flex-direction: column;
+               align-items: center;
+            }
+            @media screen and (max-width: 1205px){
+               font-size: 12px;
+            }
+            @media screen and (max-width: 991px){
+               margin-left: 10px;
+            }
+            .countOnlineContainer{
+               display: flex;
+               align-items: center;
+               font-style: normal;
+               font-weight: 400;
+               font-size: 15px;
+               line-height: 18px;
+               @media screen and (max-width: 1205px){
+                  font-size: inherit;
+               }
+               .indicator{
+                  width: 6px;
+                  height: 6px;
+                  border-radius: 50%;
+                  margin-right: 8px;
+               }
+               .grean{
+                  background: green;
+               }
+               .red{
+                  background: red;
+               }
+            }
+         }
+         .imgContainer{
+            margin-top: 20px;
+            width: 294px;
+            height: 400px;
+            overflow: hidden;
+            @media screen and (max-width: 1315px){
+               width: 70%;
+            }
+            @media screen and (max-width: 991px){
+               width: 70%;
+               margin-left: 10px;
+            }
+            @media screen and (max-height: 880px){
+               height: 360px;
+            }
+            img{
+               width: 100%;
+            }
+         }
+      }
+   }

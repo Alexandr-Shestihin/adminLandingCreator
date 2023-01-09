@@ -1,0 +1,32 @@
+{
+  "referral": "RU-12345AA",
+  "username": "shestihin@gmail.com",
+  "country": "RU",
+  "firstName": "Alex",
+  "password": "veryDifficultPassword",
+  "psnId": "584d56434p5f",
+  "gdpr": true,
+  "marketing": true
+}
+
+eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTE2ODI3MjcsImV4cCI6MTY1NTI4MjcyNywicm9sZXMiOlsiUk9MRV9VU0VSIl0sInVzZXJuYW1lIjoic2hlc3RpaGluQGdtYWlsLmNvbSJ9.eAG4L55K0S1wCPEDZuLNXdUS45Ahv8QWotTe7kushno7KyYYgl1LRA8JJi0e8JfQGwdGO4m06VZ2QF8LxdjIec5txfWISb_GsKSEH-2ONPjiipaqI-otEDt3YAhv-VosUXDs_ANYFMOCwRhV0MO3xKR4Oixj4n6Cb8emmva8AHkfmUc72rKvbBaPT4G7LBSZmkILfL3iMNowK0s0MHHDpc55d72zV2v142Z0eMOOl_bsvJ21HTWErO0s-PfXmJ5qael69a7pLz5lS5R5TlLnrOEe7q9zP0dfL-QD4KulhKWTTSGID2uEVLk_ATERmrO5Id4865Sjsg9uSuycP83d25hHtAKcz-Uc304TuE5GCBL64cGti4DhpUPNSWNY9bjII4IUCL_9Uu7ek3vDxZO2tdeqPj0gpoOQTSXmYO2_NIPds03jtmBcD-H2WbJ2oiZ74dP0W_caRhq2aKx2lduOOTBqTUtJDhJyVwi9egTx9f55ilsiid0Aq33mFKPwSlscc8c1ILA5-Gjuy1O_vu6klPjzj4aFviihNOhj8AE9bC550U2t5vTy9mhtm9fwMMmYmyTZCHOCkM6qNqQgQxZ2otTuPA_o9XG3O5d6QEvcWQJPAuVlY3Z4BH0eNfZcTVvOgY2VAX1nbOjkrc8Ak_Idl2EHGo2RgBooOBsMcCqgNfE
+
+{
+  "username": "shestihin@gmail.com",
+  "password": "veryDifficultPassword"
+}
+
+{
+  "communities": [
+    {
+      "id": "01G281710F61PP9W3XPTPK80RE",
+      "name": "Passport.gg",
+      "description": "Some description"
+    },
+  ]
+}
+
+{
+  "id": "01G4FS2BQ2HN7NPRXQM905CGM8",
+  "name": "Passport.gg"
+}

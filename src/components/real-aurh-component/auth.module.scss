@@ -1,0 +1,114 @@
+.title{
+   text-align: center;
+   color: #C9C5F7;
+}
+.subtitle{
+   margin-top: 25px;
+   text-align: center;
+}
+.imgLogoContainer{
+   margin: 0 auto 0 auto;
+   max-width: 100%;
+   margin-bottom: 35px;
+   img{
+      width: 100%;
+   }
+}
+.inputContainer{
+   margin-top: 18px;
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+   .text, input{
+      border-radius: 5px;
+      width: 100%;
+      border: 1px solid #3D365E;
+      background: #201941;
+      color: white;
+      padding: 10px;
+   }
+   select{
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #3D365E;
+      background: #201941;
+      color: white;
+   }
+}
+
+
+
+.btnContainer{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+ .btnRegister{
+   font-weight: bold;
+   margin-top: 40px;
+   width: 200px;
+   height: 50px;
+   background: #EDA211;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+}  
+.btnSwitch{
+   margin: 10px auto 0 auto;
+   width: 100px;
+   background: transparent;
+   text-decoration: underline;
+}
+}
+.disabledBTN{
+   margin-top: 40px;
+   width: 200px;
+   height: 50px;
+   background: grey;
+   cursor: no-drop;
+}
+.message{
+   text-align: center;
+}
+.textContainer{
+   margin-left: 10px;
+   cursor: pointer;
+}
+.linkStyle{
+   color: white;
+   font-size: 15px;
+   text-decoration: none;
+   font-weight: bold;
+   color: #C9C5F7;
+   &:hover{
+      color: #EDA211;
+   }
+}
+.chexBoxContainer{
+   margin-top: 30px;
+   color: #C9C5F7;
+}
+.err{
+   color: red;
+   border: 1px solid red;
+   display: block;
+}
+.errText{
+   margin-top: 10px;
+   color: red;
+}
+.textAfterButton{
+   margin-top: 50px;
+   text-align: center;
+   a{
+      color: white;
+      text-decoration: underline;
+   }
+}
+.linkContainer{
+   *{
+      display: inline;
+   }
+   &:last-child{
+      margin-top: 10px;
+   }
+}
